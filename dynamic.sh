@@ -8,5 +8,6 @@ sleep 5
 #wait for 5 sec
 end_time=$(date +%s)
 total_time=$(start_time+end_time)
+EXIT 1
 
 echo "Script executed in: $total_time"
